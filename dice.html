@@ -1,0 +1,153 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Dice new Game</title>
+</head>
+<body>
+<div class="me">
+<h1 class="total">Total new Score:</h1>
+<h2 id="score" class="score">0</h2>
+<h3 class="level" style="color: whitesmoke;">Level:</h3>
+<h4 id="levelscore" class="levelscore" style="color: whitesmoke; visibility: hidden;">0</h4>
+
+</div>
+
+<div id="btn">
+<button class="btn1" id="rollbtn">Roll Dice</button>
+<button class="btn2" id="reset">Reset</button>
+<p class="p2">🔴 Red show you are on danger</p>
+<p class="p3">🟢 Green Shows you are on safe zone </p>
+<div class="dice" id="empty"></div>
+<div id="dice0" class="dice firstface">
+<span class="dot center" ></span>
+</div>
+
+<div id="dice1" class="dice secondface">
+  <span class="dot top-left"></span>
+  <span class="dot bottom-right"></span>
+</div>
+
+
+<div id="dice2" class="dice thirdface">
+<span class="dot top-left"></span><span class="dot center"></span><span class="dot bottom-right"></span>
+</div>
+
+<div id="dice3" class="dice fourthface">
+<span class="dot top-left"></span><span class="dot top-right"></span><span class="dot bottom-left"></span><span class="dot bottom-right"></span>
+</div>
+
+<div id="dice4" class="dice fifthface">
+<span class="dot top-left"></span><span class="dot top-right"></span><span class="dot center"></span><span class="dot bottom-left"></span><span class="dot bottom-right"></span>
+</div>
+
+<div id="dice5" class="dice sixthface">
+<span class="dot top-left"></span><span class="dot top-right"></span><span class="dot center-left"></span><span class="dot center-right"></span><span class="dot bottom-left"></span><span class="dot bottom-right"></span>
+</div>
+</div>
+<div id="snackbar" ></div>
+<div id="showscore">
+  <h2 style="color: whitesmoke;"> WOW! You got a 6</h2>
+</div>
+<div class="boards">
+<div id="customAlert" class="alert-hidden">
+<p id="alertMessage">Game Over! Play again? 🎮</p>
+<button id="okBtn">OK</button>
+<button id="cancelBtn">Cancel</button>
+</div>
+<div class="board" >
+<div class="box" id="start">
+<div class="Circle" id="circle"></div>
+</div>
+<div class="box" id="box1">1</div>
+<div class="box" id="boxtrap1">2
+</div>
+<div class="box" id="boxtrap2">3
+</div>
+<div class="box" id="box5">4
+</div>
+<div class="box" id="box2">5</div>
+</div>
+<div class="board2">
+<div class="box" id="box3" >6</div>
+<div class="box" id="box6">7
+</div>
+<div class="box" id="boxtrap3"   >8
+</div>
+<div class="box" id="box4" >9
+</div>
+<div class="box" id="boxtrap4" >10
+</div>
+<div class="box" id="box7" >11
+</div>
+</div>
+<div class="board3" id="au">
+<div class="box" id="box8">12</div>
+<div class="box" id="box9">13
+</div>
+<div class="box" id="box10">14
+</div>
+<div class="box" id="box11">15
+</div>
+<div class="box" id="box12">16</div>
+<div class="box" id="box13">17</div>
+ 
+</div>
+<div class="board4" id="bu">
+<div class="box" id="box14" >18</div>
+<div class="box" id="box15">19
+</div>
+<div class="box" id="boxtrap5"   >20
+</div>
+<div class="box" id="box16" >21
+</div>
+<div class="box" id="boxtrap6" >22
+</div>
+<div class="box" id="box17" >23
+</div>
+</div>
+<div class="board5" id="cu">
+<div class="box" id="box19">24</div>
+<div class="box" id="boxtrap7">25
+</div>
+<div class="box" id="boxtrap8">26
+</div>
+<div class="box" id="box20">27
+</div>
+<div class="box" id="box21">28</div>
+<div class="box" id="box22" >29</div>
+</div>
+<div class="board6" id="du">
+<div class="box" id="box23">30
+</div>
+<div class="box" id="boxtrap9">31
+</div>
+<div class="box" id="box24" >32
+</div>
+<div class="box" id="boxtrap10" >33
+</div>
+<div class="box" id="box25" >34
+</div>
+<div class="box" id="box26" >35</div>
+</div>
+<div class="board7" id="eu">
+<div class="box" id="box27">36</div>
+<div class="box" id="boxtrap11">37
+</div>
+<div class="box" id="boxtrap12">38
+</div>
+<div class="box" id="box28">39
+</div>
+<div class="box" id="box29">40</div>
+<div class="box" id="end" >
+</div>
+</div>
+</div>
+
+
+<script src="dice.js"></script>
+</body>
+</html>
